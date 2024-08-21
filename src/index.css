@@ -1,0 +1,29 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.app{
+    display: flex;
+    padding: 30px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 21, 21);
+}
+
+.game{
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a6899e1b-4c04-49ce-a9b7-ac145e0187b6/dez9zvf-c3e75562-fc00-4b01-938e-488ec2ce52ea.png/v1/fill/w_700,h_295,q_70,strp/glassmorphism____wallpaper_ultrawide_2k_by_alossgurke_dez9zvf-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTQwIiwicGF0aCI6IlwvZlwvYTY4OTllMWItNGMwNC00OWNlLWE5YjctYWMxNDVlMDE4N2I2XC9kZXo5enZmLWMzZTc1NTYyLWZjMDAtNGIwMS05MzhlLTQ4OGVjMmNlNTJlYS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7nV0n4ZnWQUgcWDzwuUqkkeETGAWgVWKF0WBvcpogzY');
+    border-radius: 1rem;
+}
+
+.game img{
+    width: 70px;
+    height: 70px;
+
+}
